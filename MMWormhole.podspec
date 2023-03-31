@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Message passing between apps and extensions.'
   s.homepage = 'https://github.com/mutualmobile/MMWormhole'
   s.authors  = { 'Conrad Stoll' => 'conrad.stoll@mutualmobile.com' }
-  s.source   = { :git => 'https://github.com/mutualmobile/MMWormhole.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/codingiran/MMWormhole.git', :tag => s.version.to_s }
   s.requires_arc = true
   
   s.default_subspec = 'Core'
